@@ -50,5 +50,6 @@ conda install pytorch transformers -c conda-forge
 
 ## Delete environment
 ```shell
+conda deactivate
 conda env remove -n myenv
 ```
