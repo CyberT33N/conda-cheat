@@ -43,6 +43,12 @@ conda activate myenv
 # Install dependencies
 conda install pytorch transformers -c conda-forge
 ```
+- **Environment Names**:  
+  Conda environment names must be **unique**. You cannot have multiple environments with the same name on the same system.
+
+- **Location**:  
+  Conda environments are stored **separately** from your project folder. They exist within the `conda` installation directory, not in the project directory itself. This helps keep environments isolated and ensures you can reuse them across projects.
+
 
 
 
