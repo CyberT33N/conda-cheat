@@ -25,3 +25,30 @@ conda init --all
 
 <br><br>
 <br><br>
+___
+___
+<br><br>
+<br><br>
+
+# Environment
+
+## Create environment
+```shell
+# Create a new conda environment with Python 3.10
+conda create -n myenv python=3.10
+
+# Activate the environment
+conda activate myenv
+
+# Install dependencies
+conda install pytorch transformers -c conda-forge
+```
+
+
+
+<br><br>
+
+## Delete environment
+```shell
+conda env remove -n myenv
+```
