@@ -59,3 +59,27 @@ conda install pytorch transformers -c conda-forge
 conda deactivate
 conda env remove -n myenv
 ```
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+___
+___
+<br><br>
+<br><br>
+
+
+# FAQ / Error
+
+## Installed dependencies not detected VS Code
+- https://stackoverflow.com/questions/71113116/modulenotfounderror-no-module-named-fastapi
+- Try restrat VS Code Window or/and The solution was, in VSCODE: CTRL + SHIFT + P then Python:select interpreter and choose the version of python linked to your environment.
